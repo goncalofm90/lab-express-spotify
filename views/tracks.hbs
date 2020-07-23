@@ -1,0 +1,10 @@
+<h1>Tracks</h1>
+<ul>
+{{#each tracks}}
+{{!-- <img src="{{images.0.url}}" alt="image"> --}}
+<h3>title</h3>
+<h3>listen</h3>
+<p>{{name}}</p>
+<audio controls="" name="media"><source src="{{preview_url}}" type="audio/mpeg"></audio>
+{{!-- <p><a href="/tracks/{{id}}">View Tracks</a></p> --}}
+{{/each}}
